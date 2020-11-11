@@ -1,3 +1,14 @@
+# !important
+
+- create a .env file in app directory
+- copy && paste the .env.example
+- change you database and as well for sending email
+
+# Run
+
+- Don't forget to run the "$ php artisan key:generate" command which will generate an application (encryption) key and add it to the .env file.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

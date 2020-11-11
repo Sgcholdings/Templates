@@ -1,10 +1,18 @@
 # !important
 
+# Run
+
+$ composer update or 
+
+$ composer dump-autoload
+
 - create a .env file in app directory
 - copy && paste the .env.example
 - change you database and as well for sending email
 
 # Run
+
+$ php artisan key:generate
 
 - Don't forget to run the "$ php artisan key:generate" command which will generate an application (encryption) key and add it to the .env file.
 
